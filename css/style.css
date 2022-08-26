@@ -63,7 +63,8 @@ br.clear {
 
 header{
     padding: 20px 0;
-    border-bottom: 1px solid #b1b1b1;
+    border-bottom: 1px solid #f3eded;
+    height: 100px;
 }
 header nav{
     display: flex;
@@ -151,7 +152,9 @@ header div.right ul li small img{
 /* -------------header style end -------------*/
 
 #spotlight{
-    padding: 110px 0
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
 }
 #spotlight section.container{
     display: flex;
@@ -208,6 +211,69 @@ header div.right ul li small img{
     width: 100%;
 }
 #spotlight section.container div.right div.hero_bg div.hero_img img{
+    width: 100%;
+    display: block;
+}
+
+/* ---------spotlight style start--------------- */
+
+#industry{
+    background: #f9f9f9;
+}
+#industry section.inner_container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#industry section.inner_container div.left{
+    width: 45%;
+}
+#industry section.inner_container div.left div.se_logo{
+    width: 50px;
+    margin-bottom: 24px;
+}
+#industry section.inner_container div.left div.se_logo img{
+    width: 100%;
+    display: block;
+}
+#industry section.inner_container div.left h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    width: 100%;
+}
+#industry section.inner_container div.left p {
+    font-size: 14px;
+    color: #8d8d8d;
+}
+#industry section.inner_container div.left span {
+    color: #f4643f;
+}
+#industry section.inner_container div.left div.box{
+    display: flex;
+    background: #fff;
+    margin: 24px 0;
+    align-items: center;
+    padding: 20px;
+}
+#industry section.inner_container div.left div.box div.box_logo{
+    margin-right: 12px;
+}
+#industry section.inner_container div.left div.box div.box_logo img{
+    width: 100%;
+    display: block;
+}
+
+#industry section.inner_container div.right{
+    width: 40%;
+    padding: 80px 0;
+}
+#industry section.inner_container div.right div.industry_img{
+    width: 100%;
+}
+#industry section.inner_container div.right div.industry_img img{
     width: 100%;
     display: block;
 }
