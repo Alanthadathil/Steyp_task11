@@ -31,7 +31,7 @@ input,textarea,select{
 }
 
 a{
-	color: #000;
+	color: #1F1111;
 }
 .thumb{
 	display: block;
@@ -59,30 +59,155 @@ br.clear {
 	margin: 0 auto;
 	max-width:1440px;
 }
+
+
 header{
     padding: 20px 0;
+    border-bottom: 1px solid #b1b1b1;
 }
-header nav.left{
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header div.left{
     display: flex;
     align-items: center;
 }
-header nav.left h1{
-    width: 50px;
+header div.left h1{
+    width: 36px;
     margin-right: 24px;
 }
-header nav.left h1 a{
+header div.left h1 a{
     display: inline-block;
 }
-header nav.left h1 a img{
+header div.left h1 a img{
     width: 100%;
     display: inline-block;
 }
-header nav.left ul{
+header div.left ul{
     display: flex;
 }
-header nav.left ul li{
+header div.left ul li{
     margin-left: 16px;
 }
-header nav.left ul li:first-child{
+header div.left ul li a{
+   font-size: 14px;
+}
+header div.left ul li:first-child{
     margin-left: 0;
+}
+header div.right{
+
+}
+header div.right ul{
+    display: flex;
+    align-items: center;
+}
+header div.right ul li{
+    margin-left: 14px;
+}
+header div.right ul li a.button{
+    background: #f4643f;
+    display: inline-block;
+    padding: 3px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header div.right ul li a span{
+    width: 20px;
+    display: inline-block;
+}
+header div.right ul li a span img{
+    width: 100%;
+    display: inline-block;
+    filter: brightness(0) invert(1);
+}
+header div.right ul li form{
+    margin-left: 4px;
+}
+header div.right ul li form input[type=search]{
+    font-size: 14px;
+    font-weight: 600;
+    width: 60px;
+}
+header div.right ul li:nth-child(2n){
+    position: relative;
+    margin-left: 24px;
+}
+header div.right ul li small{
+    display: inline-block;
+    width: 14px;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+}
+header div.right ul li small img{
+    width: 100%;
+    display: inline-block;
+}
+
+/* -------------header style end -------------*/
+
+#spotlight{
+    padding: 110px 0
+}
+#spotlight section.container{
+    display: flex;
+    justify-content: space-between;
+}
+#spotlight div.left{
+    width: 45%;
+}
+#spotlight div.left h4{
+    font-size: 14px;
+    color: #d05d42;
+    margin-bottom: 24px;
+}
+#spotlight section.container div.left h1{
+    font-size: 64px;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 24px;
+}
+#spotlight section.container div.left p{
+    width: 50%;
+    font-size: 14px;
+    color: #8d8d8d;
+    width: 80%;
+    margin-bottom: 24px;
+}
+#spotlight section.container div.left a.button{
+    display: inline-block;
+    font-size: 14px;
+    background: #f4643f;
+    color: #fff;
+    padding: 8px 22px;
+}
+#spotlight section.container div.right{
+    width: 55%;
+}
+#spotlight section.container div.right{
+    display: flex;
+}
+#spotlight section.container div.right div.hero_bg{
+    width: 30%;
+    height: 465px;
+    background: #f4643f;
+    margin-right: 24px;
+    position: relative;
+}
+#spotlight section.container div.right div.hero_bg:last-child{
+    margin-right: 0;
+}
+#spotlight section.container div.right div.hero_bg div.hero_img{
+    position: absolute;
+    bottom: 12px;
+    left: 11px;
+    width: 100%;
+}
+#spotlight section.container div.right div.hero_bg div.hero_img img{
+    width: 100%;
+    display: block;
 }
