@@ -480,5 +480,84 @@ header div.right ul li small img{
     color: #d05d42;
 }
 
+#contact{
+    background: #f1f2f4;
+    padding: 50px 0;
+}
+#contact section.container{
+    display: flex;
+}
+#contact section.container div.left{
+    width: 30%;
+}
+#contact section.container div.right{
+    width: 70%;
+}
+#contact div.se_logo{
+    width: 50px;
+    margin-bottom: 18px;
+}
+#contact div.se_logo img{
+    width: 100%;
+    display: block;
+}
+#contact section.container div.left a.button{
+    display: inline-block;
+    margin-top: 16px;
+    background: #f4643f;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 14px;
+}
+#contact section.container div.left h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    width: 70%;
+}
+#contact section.container div.left p{
+    font-size: 14px;
+    color: #8d8d8d;
+}
+#contact section.container div.left p span{
+    color: #d05d42;
+}
+#contact section.container div.right{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#contact section.container div.right div.box{
+    background: #fff;
+    width: 27%;
+    height: 200px;
+    padding: 20px;
+}
+#contact section.container div.right div.box span.box_icon{
+    display: inline-block;
+    width: 40px;
+    margin-bottom: 12px;
+}
+#contact section.container div.right div.box span.box_icon img{
+    width: 100%;
+    display: inline-block;
+}
+#contact section.container div.right div.box h3{
+   font-size: 18px;
+   width: 50%;
+   margin-bottom: 4px;
+}
+#contact section.container div.right div.box p{
+    font-size: 12px;
+    color: #8d8d8d;
+    width: 100%;
+}
+#contact section.container div.right div.box p span{
+    color: #d05d42;
+}
+
+/* ----------------contact style end--------------------- */
 
 
