@@ -632,6 +632,10 @@ header div.right ul li small img{
 }
 #testimonial div.test_body div.test_box ul li{
     width: 27%;
+    opacity: 0.5;
+}
+#testimonial div.test_body div.test_box ul li:hover{
+    opacity: 1;
 }
 #testimonial div.test_body div.test_box ul li div.content{
     width: 80%;
@@ -708,4 +712,33 @@ header div.right ul li small img{
 #testimonial div.test_body div.test_box_blue h3{
     color: #f4643f;
     font-size: 26px;
+}
+#testimonial div.test_bottom{
+    padding: 84px 0;
+}
+#testimonial div.test_bottom div.icon_section{ 
+    width: 60%;
+    margin: 0 auto;
+}
+#testimonial div.test_bottom div.icon_section ul{ 
+    display: flex;
+    justify-content: space-between;
+}
+#testimonial div.test_bottom div.icon_section ul li{ 
+    
+}
+#testimonial div.test_bottom div.icon_section ul li div.icon_container{ 
+    text-align: center;
+}
+#testimonial div.test_bottom div.icon_section ul li div.icon_container span {
+    width: 60px;
+    display: inline-block;
+}
+#testimonial div.test_bottom div.icon_section ul li div.icon_container span img{ 
+    width: 100%;
+    display: inline-block;
+}
+#testimonial div.test_bottom div.icon_section ul li div.icon_container h4{
+    font-size: 12px;
+    color: #797979;
 }
