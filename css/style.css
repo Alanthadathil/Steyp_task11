@@ -18,9 +18,9 @@ del {
 	text-decoration: line-through;
 }
 body {
-	font-family:  Arial, Helvetica, sans-serif;
+	font-family:  'Oswald',Arial, Helvetica, sans-serif;
 	font-size: 17px;
-	color: #000;
+	color: #1F1111;
 	overflow-x: hidden;
 	min-width: 320px;
 	font-weight: 500;
@@ -43,8 +43,8 @@ a{
 p{
 	line-height:1.6em;
 	font-size: 16px;
-	font-family:  Arial;
-	font-weight: 500;
+	font-family:  'Oswald',Arial;
+	font-weight: normal;
 	color: #000;
 }
 .hidden{
@@ -59,8 +59,66 @@ br.clear {
 	margin: 0 auto;
 	max-width:1440px;
 }
+a:hover,
+.submit:hover {
+    filter: alpha(opacity=85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+}
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Light.woff2') format('woff2'),
+        url('Oswald-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+        url('../fonts/Oswald-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Oswald-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+        url('../fonts/Oswald-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+        url('../fonts/Oswald-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+        url('../fonts/Oswald-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
 header{
     padding: 20px 0;
     border-bottom: 1px solid #f3eded;
@@ -81,6 +139,7 @@ header div.left h1{
 }
 header div.left h1 a{
     display: inline-block;
+    color: #1F1111;
 }
 header div.left h1 a img{
     width: 100%;
@@ -93,7 +152,7 @@ header div.left ul li{
     margin-left: 16px;
 }
 header div.left ul li a{
-   font-size: 14px;
+   font-size: 12px;
 }
 header div.left ul li:first-child{
     margin-left: 0;
@@ -103,7 +162,6 @@ header div.right{
 }
 header div.right ul{
     display: flex;
-    align-items: center;
 }
 header div.right ul li{
     margin-left: 14px;
@@ -111,10 +169,17 @@ header div.right ul li{
 header div.right ul li a.button{
     background: #f4643f;
     display: inline-block;
-    padding: 3px 5px;
+    padding: 4px 6px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+header div.right ul li input[type=search]{
+    
+}
+header div.right ul li input[type=search]::placeholder{
+    font-size: 12px;
+    color: #1F1111;
 }
 header div.right ul li a span{
     width: 20px;
@@ -129,9 +194,10 @@ header div.right ul li form{
     margin-left: 4px;
 }
 header div.right ul li form input[type=search]{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
-    width: 60px;
+    width: 65px;
+    /* color: #000; */
 }
 header div.right ul li:nth-child(2n){
     position: relative;
@@ -170,15 +236,14 @@ header div.right ul li small img{
 }
 #spotlight section.container div.left h1{
     font-size: 64px;
-    font-weight: 600;
-    width: 100%;
+    width: 80%;
     margin-bottom: 24px;
 }
 #spotlight section.container div.left p{
     width: 50%;
     font-size: 14px;
     color: #8d8d8d;
-    width: 80%;
+    width: 70%;
     margin-bottom: 24px;
 }
 #spotlight section.container div.left a.button{
@@ -186,7 +251,7 @@ header div.right ul li small img{
     font-size: 14px;
     background: #f4643f;
     color: #fff;
-    padding: 8px 22px;
+    padding: 8px 40px;
 }
 #spotlight section.container div.right{
     width: 55%;
@@ -196,10 +261,10 @@ header div.right ul li small img{
 }
 #spotlight section.container div.right div.hero_bg{
     width: 30%;
-    height: 465px;
     background: #f4643f;
     margin-right: 24px;
     position: relative;
+    height: 460px;
 }
 #spotlight section.container div.right div.hero_bg:last-child{
     margin-right: 0;
@@ -212,6 +277,7 @@ header div.right ul li small img{
 }
 #spotlight section.container div.right div.hero_bg div.hero_img img{
     width: 100%;
+    height: 460px;
     display: block;
 }
 
@@ -240,13 +306,13 @@ header div.right ul li small img{
 }
 #industry section.inner_container div.left h2{
     font-size: 48px;
-    font-weight: 600;
     margin-bottom: 24px;
-    width: 100%;
+    width: 80%;
 }
 #industry section.inner_container div.left p {
     font-size: 14px;
     color: #8d8d8d;
+    font-weight: normal;
 }
 #industry section.inner_container div.left span {
     color: #f4643f;
@@ -293,17 +359,18 @@ header div.right ul li small img{
 }
 #service h2{
     font-size: 48px;
-    font-weight: 600;
-    margin: 24px 0;
+    margin: 16px 0;
     text-align: center;
+    font-weight: normal;
 }
 #service p{
     text-align: center;
     font-size: 14px;
     color: #8d8d8d;
-    width: 35%;
+    width: 30%;
     margin: 0 auto;
     margin-bottom: 24px;
+    font-weight: normal;
 }
 #service div.cards{
     
@@ -325,7 +392,7 @@ header div.right ul li small img{
 }
 #service div.cards ul li div.card_img img{ 
     width: 100%;
-    display: block;
+    height: 100%;
 }
 #service div.cards ul li div.icon_bg{
     background: #fff;
@@ -344,24 +411,27 @@ header div.right ul li small img{
 }
 #service div.cards ul li h4{
     margin: 16px 0;
+    font-weight: 300;
     color: #d05d42;
 }
 #service div.cards ul li h3{
     margin: 16px 0;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
 }
 #service div.cards ul li a.button{
     display: inline-block;
     margin: 16px 0;
     background: #f4643f;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 8px 40px;
     color: #fff;
     font-size: 14px;
 }
 #service div.cards ul li small{
     color: #8d8d8d;
+    display: block;
+    font-weight: normal;
 }
 
 /* ----------------service style end--------------------- */
@@ -379,7 +449,7 @@ header div.right ul li small img{
 }
 #project h2{ 
     font-size: 48px;
-    font-weight: 600;
+    font-weight: normal;
     margin: 24px 0;
     text-align: center;
 }
@@ -424,7 +494,7 @@ header div.right ul li small img{
 }
 #article h2{ 
     font-size: 48px;
-    font-weight: 600;
+    font-weight: normal;
     margin: 24px 0;
     text-align: center;
 }
@@ -472,13 +542,44 @@ header div.right ul li small img{
 }
 #article div.cards ul li h5{
     font-size: 22px;
-    font-weight: 600;
+    font-weight: normal;
     margin-bottom: 16px;
+    width: 80%;
 }
 #article div.cards ul li h4{
     font-size: 14px;
     color: #d05d42;
+    display: inline-flex;
+    cursor: pointer;
 }
+#article div.cards ul li h4 span{
+    display: inline-block;
+    margin-left: 16px;
+}
+#article div.cards ul li h4 span img{
+   width: 100%;
+   display: inline-block;
+}
+#article div.scroller{
+    text-align: center;
+}
+#article div.scroller span.scroll{
+    width: 15px;
+    height: 15px;
+    border: 3px solid #f4643f;
+    margin-right: 8px;
+    background: #fff;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#article div.scroller span.scroll:hover{
+    background: #f4643f;
+}
+#article div.scroller span.scroll:last-child{
+    margin-right: 0;
+}
+/* ----------------article style end--------------------- */
 
 #contact{
     background: #f1f2f4;
@@ -506,13 +607,13 @@ header div.right ul li small img{
     margin-top: 16px;
     background: #f4643f;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 8px 40px;
     color: #fff;
     font-size: 14px;
 }
 #contact section.container div.left h2{
     font-size: 48px;
-    font-weight: 600;
+    font-weight: normal;
     margin-bottom: 24px;
     width: 70%;
 }
@@ -566,6 +667,7 @@ header div.right ul li small img{
 #testimonial div.test_head{
     text-align: center;
     margin-bottom: 26px;
+    padding: 54px 0;
 }
 #testimonial div.test_head ul{
     width: 50%;
@@ -578,7 +680,7 @@ header div.right ul li small img{
 }
 #testimonial div.test_head ul li h4{
     font-size: 34px;
-    font-weight: 600;
+    font-weight: normal;
     color: #f4643f;
 }
 #testimonial div.test_head ul li h5{
@@ -610,7 +712,7 @@ header div.right ul li small img{
 }
 #testimonial div.box_container div.test_box div.se_logo{
     width: 50px;
-    margin-bottom: 18px;
+    /* margin-bottom: 18px; */
 }
 #testimonial div.box_container div.test_box div.se_logo img{
     width: 100%;
@@ -618,13 +720,14 @@ header div.right ul li small img{
 }
 #testimonial div.box_container div.test_box h2{
     font-size: 36px;
-    font-weight: 600;
-    margin-bottom: 26px;
+    font-weight: normal;
+    margin-bottom: 18px;
+    width: 80%;
 }
 #testimonial div.test_body div.test_box_blue{
     background: #12192c;
     width: 500px;
-    height: 100px;
+    height: 110px;
 }
 #testimonial div.test_body div.test_box ul{
     display: flex;
@@ -633,12 +736,14 @@ header div.right ul li small img{
 #testimonial div.test_body div.test_box ul li{
     width: 27%;
     opacity: 0.5;
+    transition: 0.5s;
 }
 #testimonial div.test_body div.test_box ul li:hover{
     opacity: 1;
 }
 #testimonial div.test_body div.test_box ul li div.content{
     width: 80%;
+    
 }
 #testimonial div.test_body div.test_box ul li div.content div.bg{
     width: 80px;
@@ -646,6 +751,12 @@ header div.right ul li small img{
     background: #c5c5c5;
     margin-bottom: 12px;
     position: relative;
+}
+#testimonial div.test_body div.test_box ul li:nth-child(2n) div.content div.bg{
+    background: #fde2db;
+}
+#testimonial div.test_body div.test_box ul li:nth-child(3n) div.content div.bg{
+    background: #fde2db;
 }
 #testimonial div.test_body div.test_box ul li div.content div.bg .test_img{
     position: absolute;
@@ -669,7 +780,7 @@ header div.right ul li small img{
     line-height: 1.6em;
     font-size: 12px;
     font-style: italic;
-    margin-top: 14px;
+    margin-top: 10px;
     color: #797979;
 }
 #testimonial div.test_body div.arrow_section{
@@ -679,7 +790,7 @@ header div.right ul li small img{
 }
 #testimonial div.test_body div.arrow_section div.left{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width: 30%;
 }
 #testimonial div.test_body div.arrow_section div.left span.arrow{
@@ -706,12 +817,12 @@ header div.right ul li small img{
 }
 #testimonial div.test_body div.test_box_blue h4{
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 12px;
 }
 #testimonial div.test_body div.test_box_blue h3{
     color: #f4643f;
-    font-size: 26px;
+    font-size: 24px;
 }
 #testimonial div.test_bottom{
     padding: 92px 0;
@@ -857,6 +968,7 @@ footer div.container div.right div.map_box{
     height: 330px;
     position: absolute;
     bottom: 20px;
+   
 }
 footer div.container div.right div.map_box div.map_img{
     padding: 14px;
@@ -866,7 +978,7 @@ footer div.container div.right div.map_box div.map_img img{
     width: 100%;
 }
 footer div.container div.right div.map_box div.box_content{
-    padding: 0 20px;
+    padding: 10px;
 }
 footer div.container div.right div.map_box h3{
     font-size: 18px;
