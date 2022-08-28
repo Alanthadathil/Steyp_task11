@@ -1,0 +1,715 @@
+@media all and (max-width: 1440px){
+    #contact section.container div.right div.box p {
+        font-size: 10px;
+        color: rgb(141, 141, 141);
+        width: 90%;
+    }
+    #contact section.container div.left p {
+        font-size: 14px;
+        color: #8d8d8d;
+        width: 80%;
+    }
+}
+@media all and (max-width: 1280px){
+    #spotlight section.container div.left h1 {
+        font-size: 48px;
+        width: 100%;
+    }
+    #spotlight section.container div.left p {
+        font-size: 12px;
+        width: 80%;
+    }
+    #spotlight section.container div.right {
+        width: 70%;
+    }
+    #industry section.inner_container div.left h2 {
+        font-size: 38px;
+        margin-bottom: 18px;
+        width: 100%;
+    }
+    #industry section.inner_container div.left {
+        padding: 40px 0;
+    }
+    #industry section.inner_container div.left p {
+        font-size: 13px;
+    }
+    #service p {
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    #service div.cards {
+        padding: 30px 0;
+    }
+
+    #service div.cards ul li h4 {
+    font-size: 14px;
+    }
+    #service div.cards ul li small {
+        width: 100%;
+        font-size: 12px;
+    }
+    #service div.cards ul li a.button {
+        padding: 8px 30px;
+        color: #fff;
+    }
+    #project h2 {
+        font-size: 38px;
+    }
+    #project p {
+        width: 30%;
+    }
+    #project p {
+        width: 30%;
+    }
+    #article p {
+        width: 40%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 250px;
+    }
+
+    #article div.cards ul li h5 {
+        font-size: 20px;
+        margin-bottom: 14px;
+        width: 80%;
+    }
+    #article div.cards ul li h6 {
+        font-size: 12px;
+    }
+    
+    #contact section.container div.right div.box h3 {
+        font-size: 15px;
+        width: 90%;
+        margin-bottom: 4px;
+    }
+    #contact section.container div.right div.box p {
+        font-size: 10px;
+        width: 100%;
+    }
+    #contact section.container div.left p {
+        width: 100%;
+    }
+    footer div.container div.middle_first ul li small {
+        font-size: 9px;
+    }
+    footer div.container div.right div.map_box {
+        width: 220px;
+        height: 315px;
+    }
+    
+}
+@media all and (max-width: 1050px){
+    header div.right ul li form input[type=search] {
+        font-size: 11px;
+        width: 65px;
+    }
+    #spotlight section.container div.right {
+        width: 75%;
+    }
+    #spotlight section.container div.left h1 {
+        font-size: 43px;
+    }
+    #spotlight section.container div.left p {
+        width: 90%;
+    }
+    #industry section.inner_container div.left div.se_logo {
+        width: 40px;
+    }
+    #industry section.inner_container div.left h2 {
+        font-size: 34px;
+    }
+    #industry section.inner_container div.left p {
+        font-size: 12px;
+    }
+    #service div.se_logo {
+        width: 40px;
+    }
+    #service h2 {
+        font-size: 38px;
+    }
+    #project p {
+        width: 35%;
+    }
+    #article h2 {
+        font-size: 38px;
+    }
+    #article div.cards ul li div.card_img {
+        height: 240px;
+    }
+    #contact section.container {
+        justify-content: space-between;
+    }
+    #contact section.container div.left {
+        width: 40%;
+    }
+    #contact section.container div.right div.box {
+        width: 27%;
+        height: 210px;
+    }
+    #contact section.container div.left p {
+        width: 90%;
+    }
+    #testimonial div.test_bottom {
+        padding: 100px 0;
+    }
+    footer div.container div.middle_first {
+        width: 25%;
+    }
+    #testimonial div.test_bottom div.icon_section ul li div.icon_container span {
+        width: 40px;
+    }
+}
+@media all and (max-width: 980px){
+    #spotlight section.container div.right div.hero_bg {
+        width: 30%;
+        height: 370px;
+    }
+    #spotlight section.container div.right div.hero_bg div.hero_img img {
+        width: 100%;
+        height: 370px;
+        display: block;
+    }
+    #spotlight section.container div.left h1 {
+        font-size: 34px;
+    }
+    header div.right ul li form input[type=search] {
+        font-size: 12px;
+        width: 65px;
+    }
+    #industry section.inner_container {
+        flex-wrap: wrap;
+    }
+    #industry section.inner_container div.left {
+        width: 100%;
+    }
+    #industry section.inner_container div.right {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #industry section.inner_container div.left {
+        padding: 0;
+    }
+    #industry section.inner_container div.right {
+        padding: 70px 0;
+    }
+    #industry section.inner_container {
+        padding-top: 50px;
+    }
+    #service p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    #service div.cards ul li div.card_img {
+        height: 200px;
+    }
+    #service div.cards ul li div.icon_bg {
+        position: absolute;
+        top: 150px;
+        right: 24px;
+        border-bottom: 1px solid #000;
+    }
+    #service div.cards ul li div.icon_bg div.icon {
+        width: 30px;
+    }
+    #service div.cards ul li {
+        width: 30%;
+        text-align: center;
+    }
+    #project p {
+        width: 45%;
+    }
+    #article p {
+        width: 60%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 200px;
+    }
+    #article div.cards ul li h5 {
+        width: 100%;
+    }
+    #article div.scroller span.scroll {
+        width: 14px;
+        height: 14px;
+    }
+    #contact section.container div.left {
+        width: 40%;
+    }
+    #contact section.container div.left h2 {
+        font-size: 38px;
+    }
+    #contact section.container div.left a.button {
+        padding: 8px 28px;
+        color: #fff;
+        font-size: 12px;
+    }
+    #contact section.container div.right div.box {
+        width: 27%;
+        height: 260px;
+    }
+    #contact section.container div.right {
+        width: 80%;
+    }
+    #contact section.container div.right div.box {
+        text-align: center;
+    }
+    #contact section.container div.right div.box {
+        width: 27%;
+        height: 215px;
+    }
+    #contact section.container div.right div.box {
+        padding: 10px;
+        height: 200px;
+    }
+
+    #testimonial div.test_head ul li h4 {
+    font-size: 24px;
+    }
+    #testimonial div.box_container {
+        left: 134px;
+    }
+    #testimonial div.box_container div.test_box div.se_logo {
+        width: 40px;
+    }
+    #testimonial div.box_container div.test_box h2 {
+        font-size: 28px;
+        width: 60%;
+    }
+    #testimonial div.test_body div.test_box {
+        width: 500px;
+        background: #fff;
+        height: 465px;
+    }
+    #testimonial div.test_body div.test_box_blue h3 {
+        color: #f4643f;
+        font-size: 22px;
+    }
+    #testimonial div.test_body div.test_box_blue h4 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+    footer div.container div.middle_first {
+        width: 27%;
+    }
+    footer div.container div.middle_second ul li div.profile_content h6 {
+        font-size: 8px;
+    }
+    footer div.container div.middle_second ul li div.profile_content span {
+        font-size: 10px;
+    }
+    footer div.container div.left ul li {
+        font-size: 10px;
+    }
+    footer div.container div.right div.map_box {
+        width: 180px;
+        height: 270px;
+    }
+    footer div.container div.right div.map_box p {
+        font-size: 10px;
+        margin: 6px 0;
+    }
+}
+@media all and (max-width: 768px){
+    header div.left ul {
+        display: none;
+    }
+    #spotlight section.container div.right div.hero_bg div.hero_img img {
+        height: 308px;
+    }
+    #spotlight section.container {
+        flex-wrap: wrap;
+    }
+    #spotlight section.container div.right div.hero_bg {
+        height: 305px;
+    }
+
+    #spotlight div.left {
+        width: 100%;
+        text-align: center;
+    }
+    #spotlight section.container div.left p {
+        width: 60%;
+        margin: 0 auto;
+    }
+    #spotlight div.left h4 {
+        margin-bottom: 0px;
+    }
+    #spotlight section.container div.left h1 {
+        margin-bottom: 0px;
+    }
+    #spotlight div.left {
+        margin-bottom: 40px;
+    }
+    #spotlight section.container div.right {
+        width: 100%;
+    }
+    #spotlight section.container div.left p {
+        width: 60%;
+        margin: 10px auto;
+    }
+    #service div.cards ul li small {
+        font-size: 14px;
+    }
+    #service {
+        padding: 60px 0;
+    }
+    #project p {
+        width: 55%;
+    }
+    #project ul li:first-child {
+        width: 100%;
+    }
+    #project ul li {
+        width: 50%;
+    }
+    #service div.cards ul li {
+        width: 100%;
+        text-align: center;
+    }
+    #service div.cards ul {
+        flex-wrap: wrap;
+    }
+    #service div.cards ul li div.card_img {
+        height: 300px;
+    }
+    #service div.cards ul li small {
+        width: 70%;
+        margin: 0 auto;
+    }
+    #article div.cards ul {
+        flex-wrap: wrap;
+    }
+    #article div.cards ul li {
+        width: 100%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 300px;
+    }
+    #contact section.container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #contact section.container div.left {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 0px 23px;
+    }
+    #contact section.container div.right {
+        width: 100%;
+    }
+    #testimonial div.test_head {
+        padding: 30px 0;
+    }
+    #testimonial div.box_container {
+        left: 70px;
+    }
+    #testimonial div.test_bottom {
+        padding: 50px 0;
+    }
+    footer div.container {
+        flex-wrap: wrap;
+    }
+    footer div.container div.left {
+        width: 40%;
+    }
+    footer div.container div.middle_first {
+        width: 50%;
+    }
+    footer div.container div.middle_second {
+        width: 40%;
+    }
+    footer div.container div.right {
+        width: 40%;
+    }
+    footer div.container div.right div.map_box {
+        width: 210px;
+        height: 240px;
+    }
+    footer div.container div.right div.map_box {
+        left: -43px;
+        bottom: -40px;
+    }
+    footer div.container div.right div.map_box h3 {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    footer div.container div.right div.map_box h5 {
+        margin-bottom: 0px;
+    }
+    footer div.container div.right div.map_box p {
+        margin: 0;
+    }
+}
+@media all and (max-width: 640px){
+    #spotlight section.container div.left h1 {
+        font-size: 24px;
+    }
+    #spotlight section.container div.left p {
+        width: 80%;
+    }
+    #spotlight section.container div.left a.button {
+        padding: 8px 24px;
+    }
+    #industry section.inner_container div.left h2 {
+        font-size: 28px;
+    }
+    #service h2 {
+        font-size: 32px;
+    }
+    #service p {
+        width: 90%;
+        margin: 0 auto;
+    }
+    #service div.cards ul li {
+        border-bottom: 0;
+    }
+    #service div.cards ul li small {
+        width: 80%;
+    }
+    #project h2 {
+        font-size: 34px;
+    }
+    #project p {
+        width: 70%;
+    }
+    #service div.cards ul li div.icon_bg {
+        top: 254px;
+    }
+    #article p {
+        width: 90%;
+    }
+    #contact section.container div.right {
+        flex-wrap: wrap;
+    }
+    #contact section.container div.right div.box {
+        padding: 24px;
+        height: 200px;
+        margin-bottom: 24px;
+        width: 100%;
+    }
+    #contact section.container div.right div.box h3 {
+        font-size: 22px;
+        width: 100%;
+    }
+    #contact section.container div.right div.box p {
+        font-size: 15px;
+        width: 100%;
+    }
+    #contact section.container div.left{
+        text-align: center;
+    }
+    #contact section.container div.left h2 {
+        width: 100%;
+    }
+    #contact div.se_logo {
+        margin: 0 auto 20px;
+    }
+    #testimonial div.test_head ul {
+        width: 80%;
+    }
+    #testimonial div.test_body {
+        background-image: none;
+    }
+    #testimonial div.box_container {
+        left: 0px;
+    }
+    #testimonial div.test_body div.test_box {
+        width: 100%;
+    }
+    #testimonial div.test_body div.test_box_blue {
+        width: 100%;
+    }
+    #testimonial div.test_bottom div.icon_section {
+        width: 80%;
+        margin: 0 auto;
+    }
+    #testimonial {
+        padding: 0;
+    }
+    #testimonial div.test_head {
+        margin-bottom: 0;
+    }
+    #testimonial div.box_container div.test_box h2 {
+        width: 100%;
+    }
+    #testimonial div.box_container div.test_box h2 {
+        font-size: 24px;
+    }
+    footer div.container div.left {
+        width: 100%;
+    }
+    footer div.container div.right div.map_box {
+        left: 190px;
+        bottom: 190px;
+    }
+    footer div.container div.left ul li {
+        font-size: 10px;
+        width: 45%;
+    }
+    footer div.container div.left {
+        margin-bottom: 24px;
+    }
+    footer div.container div.right div.map_box {
+        left: 190px;
+        bottom: 250px;
+    }
+}
+@media all and (max-width: 480px){
+    #spotlight section.container div.left h1 {
+        font-size: 20px;
+    }
+    #spotlight section.container div.left p {
+        width: 100%;
+    }
+    #spotlight section.container div.left a.button {
+        padding: 8px 16px;
+        font-size: 10px;
+    }
+    #spotlight section.container div.right div.hero_bg div.hero_img img {
+        height: 275px;
+    }
+    #spotlight section.container div.right div.hero_bg {
+        height: 275px;
+    }
+    #industry section.inner_container div.left h2 {
+        font-size: 24px;
+    }
+    #service h2 {
+        font-size: 28px;
+    }
+    #service p {
+        width: 72%;
+    }
+    #service div.cards ul li small {
+        width: 100%;
+        font-size: 13px;
+    }
+    #service div.cards ul li a.button {
+        padding: 8px 24px;
+        font-size: 12px;
+    }
+    #project h2 {
+        font-size: 28px;
+    }
+    #project p {
+        width: 85%;
+    }
+    #article p {
+        width: 75%;
+    }
+    #article div.cards ul li h4 {
+        margin-bottom: 12px;
+    }
+    #testimonial div.test_bottom div.icon_section {
+        width: 85%;
+    }
+    #testimonial div.test_bottom div.icon_section ul li div.icon_container span {
+        width: 34px;
+    }
+    #testimonial div.test_bottom div.icon_section ul li div.icon_container h4 {
+        font-size: 8px;
+    }
+    #testimonial div.test_head ul li h6 {
+        font-size: 18px;
+    }
+    footer div.container div.left ul li {
+        font-size: 12px;
+        width: 100%;
+    }
+    footer div.container div.middle_first {
+        width: 100%;
+    }
+    footer div.container div.middle_first div.inner {
+        justify-content: center;
+    }
+    footer div.container div.middle_first h3 {
+        width: 100%;
+    }
+    footer div.container div.middle_second {
+        width: 100%;
+        text-align: center;
+    }
+    footer div.container div.middle_first {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    footer div.container div.right {
+        width: 100%;
+        height: 230px;
+    }
+    footer div.container div.right div.map_box {
+        left: 0px;
+        bottom: -50px;
+        width: 290px;
+        height: 265px;
+    }
+    #testimonial div.test_body div.test_box_blue h3 {
+        font-size: 18px;
+    }
+    footer div.footer_bottom h6 {
+        font-size: 9px;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    header div.right ul li:first-child {
+        display: none;
+    }
+    header div.right ul li:nth-child(2n) {
+        display: none;
+    }
+    #testimonial div.test_body div.test_box ul li {
+        width: 33%;
+    }
+    header {
+        border-bottom: 0;
+    }
+}
+@media all and (max-width: 360px){
+    #spotlight section.container div.right div.hero_bg div.hero_img img {
+        height: 255px;
+    }
+    #spotlight section.container div.right div.hero_bg {
+        height: 255px;
+    }
+    #industry section.inner_container div.left p {
+        font-size: 11px;
+    }
+    #service p {
+        width: 85%;
+    }
+    #service div.cards ul li small {
+        font-size: 14px;
+    }
+    #project p {
+        width: 65%;
+    }
+    #article h2 {
+        font-size: 32px;
+    }
+    #article p {
+        width: 85%;
+    }
+    #article div.cards ul li div.card_img {
+        height: 255px;
+    }
+    #article div.cards ul li h5 {
+        font-size: 19px;
+    }
+    #contact section.container div.left p {
+        width: 100%;
+    }
+    #contact section.container div.right div.box p {
+        font-size: 14px;
+    }
+    #testimonial div.test_body div.test_box ul li div.content div.bg {
+        width: 60px;
+        height: 60px;
+    }
+    #testimonial div.test_body div.test_box ul li div.content h4 {
+        font-size: 10px;
+    }
+    footer div.container div.right div.map_box {
+        width: 255px;
+    } 
+}

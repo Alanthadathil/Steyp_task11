@@ -180,6 +180,8 @@ header div.right ul li input[type=search]{
 header div.right ul li input[type=search]::placeholder{
     font-size: 12px;
     color: #1F1111;
+    font-family:  'Oswald',Arial;
+    font-weight: normal;
 }
 header div.right ul li a span{
     width: 20px;
@@ -517,11 +519,13 @@ header div.right ul li small img{
 }
 #article div.cards ul li div.card_img{
     position: relative;
+    height: 300px;
 }
 #article div.cards ul li div.card_img img{
     width: 100%;
     display: block;
-    height: 230px;
+    /* height: 230px; */
+    height: 100%;
 }
 #article div.cards ul li div.card_img span.card_title{
     background: #f4643f;
