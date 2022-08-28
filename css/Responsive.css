@@ -319,6 +319,9 @@
     #spotlight section.container {
         flex-wrap: wrap;
     }
+    #spotlight div.left {
+        margin-bottom: 60px;
+    }
     #spotlight section.container div.right div.hero_bg {
         height: 305px;
     }
