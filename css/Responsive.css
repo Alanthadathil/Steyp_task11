@@ -715,8 +715,7 @@
     footer div.container div.right div.map_box {
         width: 255px;
     } 
-
-#spotlight {
-    align-items: unset;
-}
+    #spotlight {
+        align-items: unset;
+    }
 }
